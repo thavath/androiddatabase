@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:hint="@string/email_text"
+        android:hint="អ៉ីមែល"
         android:inputType="textEmailAddress"
         />
 
@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:hint="@string/password"
+        android:hint="លេខសម្ងាត់"
         android:inputType="textPassword"
         />
     <LinearLayout
@@ -38,21 +38,15 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Login"/>
+            android:text="ចូលប្រើរ"/>
 
         <Button
             android:id="@+id/btnSignup"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Sign up"/>
+            android:text="បង្កើតថ្មី"/>
 
     </LinearLayout>
-    <Button
-        android:id="@+id/btnChangLang"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/changLang"/>
 
 </LinearLayout>
