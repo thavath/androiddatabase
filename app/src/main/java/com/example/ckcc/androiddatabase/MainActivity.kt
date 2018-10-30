@@ -1,5 +1,6 @@
 package com.example.ckcc.androiddatabase
 
+import android.content.res.Configuration
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -17,9 +18,9 @@ class MainActivity : AppCompatActivity() {
 
         btnLang.setOnClickListener {
 
-            var config = resources.configuration
-            config.setLocale(Locale("km,KH"))
-            this.recreate()
+            var config = Configuration(resources.configuration)
+            config.setLocale(Locale("km"))
+            createConfigurationContext(config)
         }
 
     }

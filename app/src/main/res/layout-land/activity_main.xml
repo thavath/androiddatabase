@@ -14,7 +14,7 @@
         android:id="@+id/txtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:hint="អ៉ីមែល"
         android:inputType="textEmailAddress"
         />
@@ -23,7 +23,7 @@
         android:id="@+id/txtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:hint="លេខសម្ងាត់"
         android:inputType="textPassword"
         />
@@ -48,5 +48,12 @@
             android:text="បង្កើតថ្មី"/>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnChangLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/changLang"/>
+
 
 </LinearLayout>
