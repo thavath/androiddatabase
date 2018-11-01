@@ -2,16 +2,16 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:padding="5dp"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    >
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="5dp"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
         >
 
         <RelativeLayout
@@ -34,7 +34,7 @@
                 android:textStyle="bold"
                 android:layout_toRightOf="@+id/ivProfileImage"
                 android:layout_marginBottom="5dp"
-                android:padding="5dp"
+                android:paddingTop="5dp"
                 android:text="TextView" />
 
             <TextView
@@ -44,7 +44,7 @@
                 android:textSize="14sp"
                 android:layout_below="@+id/tvFullName"
                 android:layout_toRightOf="@+id/ivProfileImage"
-                android:padding="5dp"
+                android:paddingBottom="5dp"
                 android:text="TextView" />
         </RelativeLayout>
     </android.support.v7.widget.CardView>

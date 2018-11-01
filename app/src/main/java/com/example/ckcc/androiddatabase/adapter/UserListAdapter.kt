@@ -33,8 +33,8 @@ class UserListAdapter(private val list: ArrayList<User>, private val context: Co
             var fullname = itemView.findViewById<TextView>(R.id.tvFullName)
             var email = itemView.findViewById<TextView>(R.id.tvEmail)
 
-            fullname.text = "Name :"+ user.firstName + " " + user.lastName
-            email.text = "Email Address :" + user.Email
+            fullname.text = "Name : "+ user.lastName + " " + user.firstName
+            email.text = "Email : " + user.Email
 
         }
 
