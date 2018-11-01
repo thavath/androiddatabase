@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         var btnLang = findViewById<Button>(R.id.btnChangLang)
         var btnLogin = findViewById<Button>(R.id.btnLogin)
+        var btnSignup = findViewById<Button>(R.id.btnSignup)
 
         btnLang.setOnClickListener {
 
@@ -26,6 +27,11 @@ class MainActivity : AppCompatActivity() {
 
         btnLogin.setOnClickListener{
             var intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnSignup.setOnClickListener {
+            var intent = Intent(this, UserListActivity::class.java)
             startActivity(intent)
         }
 
