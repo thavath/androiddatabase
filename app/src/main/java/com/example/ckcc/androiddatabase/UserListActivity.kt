@@ -21,7 +21,7 @@ class UserListActivity : AppCompatActivity() {
 
         for (i in 1..15){
             var user = User()
-            user.Email = "thavath"+ i +"@gmail"
+            user.Email = "thavath"+ i +"@gmail.com"
             user.firstName = "thavath" + i
             user.lastName = "rath" + i
 
